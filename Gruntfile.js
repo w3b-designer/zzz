@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 
     cssmin: {
       app: {
-        src: ['css/bootstrap.min.css', 'css/app.css'],
+        src: ['css/app.css'],
         dest: 'css/app.css',
       }
     },
