@@ -47,6 +47,12 @@
 			</div><!--/.container -->
 		</nav>
 
+		<div class="container">
+			<ul class="breadcrumbs">
+				<li><a href="/">Úvodná stránka</a></li>
+				<li class="current">Hľadanie práce</li>
+			</ul>
+		</div>
 
 		<div class="content">
 			<div class="container">
@@ -61,44 +67,263 @@
 								<div class="col-sm-3">
 									<div class="sidebar-left">
 
+										<section class="search-filter">
+											<input name="q" placeholder="Hľadať" value="" size="20" autofocus="" type="text">
+											<button>vyhľadať</button>
+										</section>
+
 										<section style="display: block;" class="filter location">
 											<h2>
-												<a href="javascript:void(0)">Miesto</a>
+												<a href="javascript:void(0)">Lokalita</a>
 											</h2>
 											<div class="jstree filter-panel">
-												<ul class="jstree-no-dots jstree-no-icons">
-													<li class="jstree-closed jstree-unchecked" value="#">
-														<ins class="jstree-icon">&nbsp;</ins>
-														<a class="" href="javascript://">
-															<ins class="jstree-checkbox">&nbsp;</ins>Staré mesto</a><ul>
-
-															<li class="jstree-leaf jstree-unchecked" value="308"><ins class="jstree-icon">&nbsp;</ins><a href="javascript://"><ins class="jstree-checkbox">&nbsp;</ins>Dunajská / Lazaretská / Štúrova / Šafárikovo n. / Grosslingova</a></li>
-
-															<li class="jstree-leaf jstree-unchecked" value="16"><ins class="jstree-icon">&nbsp;</ins><a href="javascript://"><ins class="jstree-checkbox">&nbsp;</ins>Eurovea a okolie</a></li>
-
-															<li class="jstree-leaf jstree-unchecked" value="307"><ins class="jstree-icon">&nbsp;</ins><a href="javascript://"><ins class="jstree-checkbox">&nbsp;</ins>Hlavná st. / Štefánikova / Hodžovo nám. / Šancová</a></li>
-
-															<li class="jstree-leaf jstree-unchecked" value="305"><ins class="jstree-icon">&nbsp;</ins><a href="javascript://"><ins class="jstree-checkbox">&nbsp;</ins>Historické centrum - Korzo</a></li>
-
-															<li class="jstree-leaf jstree-unchecked" value="15"><ins class="jstree-icon">&nbsp;</ins><a href="javascript://"><ins class="jstree-checkbox">&nbsp;</ins>Hrad, Horský park a okolie</a></li>
-
-															<li class="jstree-leaf jstree-unchecked" value="306"><ins class="jstree-icon">&nbsp;</ins><a href="javascript://"><ins class="jstree-checkbox">&nbsp;</ins>Hviezdosl. nám. / Gorkého / Medená / nábrežie</a></li>
-
-															<li class="jstree-leaf jstree-unchecked" value="312"><ins class="jstree-icon">&nbsp;</ins><a href="javascript://"><ins class="jstree-checkbox">&nbsp;</ins>Kollárovo nám. / Jozefská / Mickiewiczova / Špitálska</a></li>
-
-															<li class="jstree-leaf jstree-unchecked" value="310"><ins class="jstree-icon">&nbsp;</ins><a href="javascript://"><ins class="jstree-checkbox">&nbsp;</ins>Obchodná / Vysoká</a></li>
-
-															<li class="jstree-leaf jstree-unchecked" value="309"><ins class="jstree-icon">&nbsp;</ins><a href="javascript://"><ins class="jstree-checkbox">&nbsp;</ins>Mýtna / Krížna / Žilinská</a></li>
-
-															<li class="jstree-leaf jstree-unchecked" value="311"><ins class="jstree-icon">&nbsp;</ins><a href="javascript://"><ins class="jstree-checkbox">&nbsp;</ins>Nám. SNP / Hurbanovo / Župné</a></li>
-
-															<li class="jstree-last jstree-leaf jstree-unchecked" value="313"><ins class="jstree-icon">&nbsp;</ins><a href="javascript://"><ins class="jstree-checkbox">&nbsp;</ins>RiverPark / PKO / nábrežie Dunaja</a></li>
-
+												<ul>
+													<li>
+														<a href="javascript://">Bratislavský kraj</a>
+														<ul>
+															<li><a href="javascript:void(0)">Bratislava</a></li>
+															<li><a href="javascript:void(0)">Malacky</a></li>
+															<li><a href="javascript:void(0)">Pezinok</a></li>
+															<li><a href="javascript:void(0)">Senec </a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="javascript://">Trnavský kraj</a>
+														<ul>
+															<li><a href="javascript:void(0)">Trnava</a></li>
+															<li><a href="javascript:void(0)">Dunajská Streda</a></li>
+															<li><a href="javascript:void(0)">Galanta</a></li>
+															<li><a href="javascript:void(0)">Hlohovec</a></li>
+															<li><a href="javascript:void(0)">Piešťany</a></li>
+															<li><a href="javascript:void(0)">Senica</a></li>
+															<li><a href="javascript:void(0)">Skalica</a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="javascript://">Košický kraj</a>
+														<ul>
+															<li><a href="javascript:void(0)">Košice</a></li>
+															<li><a href="javascript:void(0)">Trebišov</a></li>
+															<li><a href="javascript:void(0)">Gelnica</a></li>
+															<li><a href="javascript:void(0)">Sobrance</a></li>
+															<li><a href="javascript:void(0)">Rožňava</a></li>
+															<li><a href="javascript:void(0)">Michalovce</a></li>
+															<li><a href="javascript:void(0)">Spišská Nová Ves</a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="javascript://">Nitriansky kraj</a>
+														<ul>
+															<li><a href="javascript:void(0)">Nitra</a></li>
+															<li><a href="javascript:void(0)">Komárno</a></li>
+															<li><a href="javascript:void(0)">Levice</a></li>
+															<li><a href="javascript:void(0)">Nitra</a></li>
+															<li><a href="javascript:void(0)">Nové Zámky</a></li>
+															<li><a href="javascript:void(0)">Šaľa</a></li>
+															<li><a href="javascript:void(0)">Topoľčany</a></li>
+															<li><a href="javascript:void(0)">Zlaté Moravce</a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="javascript://">Trenčiansky kraj</a>
+														<ul>
+															<li><a href="javascript:void(0)">Trenčín</a></li>
+															<li><a href="javascript:void(0)">Bánovce nad Bebravou</a></li>
+															<li><a href="javascript:void(0)">Ilava</a></li>
+															<li><a href="javascript:void(0)">Myjava</a></li>
+															<li><a href="javascript:void(0)">Nové Mesto nad Váhom</a></li>
+															<li><a href="javascript:void(0)">Partizánske</a></li>
+															<li><a href="javascript:void(0)">Prievidza</a></li>
+															<li><a href="javascript:void(0)">Púchov</a></li>
+															<li><a href="javascript:void(0)">Trenčín</a></li>
+															<li><a href="javascript:void(0)">Považská Bystrica</a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="javascript://">Žilinský kraj</a>
+														<ul>
+															<li><a href="javascript:void(0)">Žilina</a></li>
+															<li><a href="javascript:void(0)">Bytča</a></li>
+															<li><a href="javascript:void(0)">Čadca</a></li>
+															<li><a href="javascript:void(0)">Dolný Kubín</a></li>
+															<li><a href="javascript:void(0)">Kysucké Nové Mesto</a></li>
+															<li><a href="javascript:void(0)">Liptovský Mikuláš</a></li>
+															<li><a href="javascript:void(0)">Martin</a></li>
+															<li><a href="javascript:void(0)">Námestovo</a></li>
+															<li><a href="javascript:void(0)">Ružomberok</a></li>
+															<li><a href="javascript:void(0)">Turčianske Teplice</a></li>
+															<li><a href="javascript:void(0)">Tvrdošín</a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="javascript://">Prešovský kraj</a>
+														<ul>
+															<li><a href="javascript:void(0)">Prešov</a></li>
+															<li><a href="javascript:void(0)">Levoča</a></li>
+															<li><a href="javascript:void(0)">Poprad</a></li>
+															<li><a href="javascript:void(0)">Bardejov</a></li>
+															<li><a href="javascript:void(0)">Sabinov</a></li>
+															<li><a href="javascript:void(0)">Vranov nad Topľou</a></li>
+															<li><a href="javascript:void(0)">Snina</a></li>
+															<li><a href="javascript:void(0)">Medzilaborce</a></li>
+															<li><a href="javascript:void(0)">Stará Ľubovňa</a></li>
+															<li><a href="javascript:void(0)">Svidník</a></li>
+															<li><a href="javascript:void(0)">Stropkov</a></li>
+															<li><a href="javascript:void(0)">Humenné</a></li>
+															<li><a href="javascript:void(0)">Kežmarok</a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="javascript://">Banskobystrický kraj</a>
+														<ul>
+															<li><a href="javascript:void(0)">Banská Bystrica</a></li>
+															<li><a href="javascript:void(0)">Banská Bystrica</a></li>
+															<li><a href="javascript:void(0)">Banská Štiavnica</a></li>
+															<li><a href="javascript:void(0)">Brezno</a></li>
+															<li><a href="javascript:void(0)">Detva</a></li>
+															<li><a href="javascript:void(0)">Krupina</a></li>
+															<li><a href="javascript:void(0)">Lučenec</a></li>
+															<li><a href="javascript:void(0)">Poltár</a></li>
+															<li><a href="javascript:void(0)">Revúca</a></li>
+															<li><a href="javascript:void(0)">Rimavská Sobota</a></li>
+															<li><a href="javascript:void(0)">Veľký Krtíš</a></li>
+															<li><a href="javascript:void(0)">Zvolen</a></li>
+															<li><a href="javascript:void(0)">Žarnovica</a></li>
+															<li><a href="javascript:void(0)">Žiar nad Hronom</a></li>
 														</ul>
 													</li>
 												</ul><!--/.jstree -->
 											</div><!--/.sidebar-left-menu -->
 										</section>
+
+
+										<section style="display: block;" class="filter location">
+											<h2>
+												<a href="javascript:void(0)">Kategória</a>
+											</h2>
+											<div class="jstree filter-panel">
+												<ul>
+													<li>
+														<a href="javascript://">Ambulancie</a>
+														<ul>
+															<li><a href="javascript:void(0)">Akupunktúra</a></li>
+															<li><a href="javascript:void(0)">Alergologické a imunologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Algeziologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Alternatívna medicína</a></li>
+															<li><a href="javascript:void(0)">Ambulancie klinickej výživy</a></li>
+															<li><a href="javascript:void(0)">Andrologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Anesteziologické ambulancie a intenzívna medicína</a></li>
+															<li><a href="javascript:void(0)">Centrá asistovanej reprodukcie</a></li>
+															<li><a href="javascript:void(0)">Cestovná medicína</a></li>
+															<li><a href="javascript:void(0)">Chirurgické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Cievne ambulancie - angiologické</a></li>
+															<li><a href="javascript:void(0)">Cystická fibróza</a></li>
+															<li><a href="javascript:void(0)">Darovanie krvi - odberné miesto</a></li>
+															<li><a href="javascript:void(0)">Denný stacionár</a></li>
+															<li><a href="javascript:void(0)">Dentálna hygiena</a></li>
+															<li><a href="javascript:void(0)">Diabetologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Dialyzačné strediská</a></li>
+															<li><a href="javascript:void(0)">Endokrinologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Endoskopické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Esteticko plastická chirurgia</a></li>
+															<li><a href="javascript:void(0)">Foniatrické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Fyziatria, balneológia a liečebná rehabilitácia</a></li>
+															<li><a href="javascript:void(0)">Gastroenterologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Geriatrické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Gynekologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Hematologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Hepatologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Homeopatické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Hypertenzné ambulancie</a></li>
+															<li><a href="javascript:void(0)">Interné ambulancie</a></li>
+															<li><a href="javascript:void(0)">Jednodňová chirurgia</a></li>
+															<li><a href="javascript:void(0)">Kardiologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Korektívna dermatológia</a></li>
+															<li><a href="javascript:void(0)">Kožné ambulancie - dermatologické</a></li>
+															<li><a href="javascript:void(0)">Laserová medicína</a></li>
+															<li><a href="javascript:void(0)">Lekárska genetika</a></li>
+															<li><a href="javascript:void(0)">Logopedické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Magnetická rezonancia</a></li>
+															<li><a href="javascript:void(0)">Nefrologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Neurologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Novorodenecké ambulancie</a></li>
+															<li><a href="javascript:void(0)">Očné ambulancie</a></li>
+															<li><a href="javascript:void(0)">Oddelenie klinickej biochémie</a></li>
+															<li><a href="javascript:void(0)">Onkologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">ORL ambulancie - ušné, nosné, krčné</a></li>
+															<li><a href="javascript:void(0)">Ortopedické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Pľúcne ambulancie - pneumologické a ftizeologické</a></li>
+															<li><a href="javascript:void(0)">Pohotovosť - lekárska služba prvej pomoci (LSPP)</a></li>
+															<li><a href="javascript:void(0)">Popáleninové ambulancie</a></li>
+															<li><a href="javascript:void(0)">Poradňa zdravia</a></li>
+															<li><a href="javascript:void(0)">Poradne na odvykanie od fajčenia</a></li>
+															<li><a href="javascript:void(0)">Pracovná zdravotná služba</a></li>
+															<li><a href="javascript:void(0)">Príjmové ambulancie</a></li>
+															<li><a href="javascript:void(0)">Psychiatrické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Psychiatrické liečebne</a></li>
+															<li><a href="javascript:void(0)">Psychiatrické stacionáre</a></li>
+															<li><a href="javascript:void(0)">Psychologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Rádiodiagnostické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Reumatologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Sexuologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Sociálno-pedagogické poradne</a></li>
+															<li><a href="javascript:void(0)">Telovýchovné lekárstvo</a></li>
+															<li><a href="javascript:void(0)">Traumatologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Ultrazvukové ambulancie - sonografické</a></li>
+															<li><a href="javascript:void(0)">Urologické ambulancie</a></li>
+															<li><a href="javascript:void(0)">Všeobecný lekár - deti a dorast</a></li>
+															<li><a href="javascript:void(0)">Všeobecný lekár - dospelí</a></li>
+															<li><a href="javascript:void(0)">Záchranná služba</a></li>
+															<li><a href="javascript:void(0)">Zubná technika</a></li>
+															<li><a href="javascript:void(0)">Zubné ambulancie - stomatologické</a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="javascript://">Firmy</a>
+														<ul>
+															<li><a href="javascript:void(0)">Alternatívna medicína (77)</a></li>
+															<li><a href="javascript:void(0)">Kúpele a wellness (0)</a></li>
+															<li><a href="javascript:void(0)">Lieky a doplnky výživy (59)</a></li>
+															<li><a href="javascript:void(0)">Poradne (28)</a></li>
+															<li><a href="javascript:void(0)">Práca a vzdelávanie (37)</a></li>
+															<li><a href="javascript:void(0)">Sociálne služby (63)</a></li>
+															<li><a href="javascript:void(0)">Starostlivosť o telo (101)</a></li>
+															<li><a href="javascript:void(0)">Šport, fitness (7)</a></li>
+															<li><a href="javascript:void(0)">Vydavateľstvá, časopisy a knihy (6)</a></li>
+															<li><a href="javascript:void(0)">Zdravá strava (23)</a></li>
+															<li><a href="javascript:void(0)">Zdravotnícke pomôcky a tovar (168)</a></li>
+															<li><a href="javascript:void(0)">Zdravotnícke služby (24)</a></li>
+															<li><a href="javascript:void(0)">Žena a dieťa (28)</a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="javascript://">Hospice</a>
+													</li>
+													<li>
+														<a href="javascript://">Inštitúcie</a>
+														<ul>
+															<li><a href="javascript:void(0)">Iné združenia a organizácie (3)</a></li>
+															<li><a href="javascript:void(0)">Odborné organizácie (8)</a></li>
+															<li><a href="javascript:void(0)">Pacientske organizácie (17)</a></li>
+															<li><a href="javascript:void(0)">Štátne inštitúcie (7)</a></li>
+															<li><a href="javascript:void(0)">Zdravotné poisťovne (3) </a></li>
+														</ul>
+													</li>
+													<li><a href="javascript://">Kúpele</a></li>
+													<li><a href="javascript://">Lekárne</a></li>
+													<li><a href="javascript://">Nemocnice</a></li>
+													<li><a href="javascript://">Očné optiky</a></li>
+													<li><a href="javascript://">Ošetrovatelia</a></li>
+													<li><a href="javascript://">Pohotovosti</a></li>
+													<li><a href="javascript://">Poisťovne</a></li>
+													<li><a href="javascript://">Polikliniky a ZS</a></li>
+													<li><a href="javascript://">Pôrodnice</a></li>
+													<li><a href="javascript://">Veterinári</a></li>
+													<li><a href="javascript://">ADOSy</a></li>
+												</ul><!--/.jstree -->
+											</div><!--/.sidebar-left-menu -->
+										</section>
+
 									</div><!--/.sidebar-left -->
 								</div><!--/.col-sm-3 -->
 								<div class="col-sm-9">
@@ -150,7 +375,49 @@
 					</div><!--/.col-sm-8 -->
 					<div class="col-sm-4">
 						<div class="sidebar-right">
-							REKLAMA
+							<div class="sidebar-banner">
+								<img src="http://lorempixel.com/360/300/people" alt="">
+							</div>
+
+							<div class="sidebar-banner">
+								<img src="http://lorempixel.com/360/300/people" alt="">
+							</div>
+
+							<div class="sidebar-panel">
+								<ul class="nav nav-tabs" role="tablist">
+									<li class="active"><a href="#diskusia" role="tab" data-toggle="tab">Diskusia</a></li>
+									<li><a href="#clanky" role="tab" data-toggle="tab">Články</a></li>
+								</ul>
+
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane fade in active" id="diskusia">
+										<div class="tab-pane-title">Naposledy diskutované v diskusnom fóre</div>
+										<ul>
+											<li>Hľadám prácu - opatrovateľka - Rakúsko</li>
+											<li>Hľadám prácu ako zdravotná sestra</li>
+											<li>Stitna zlaza</li>
+											<li>Agentúra pre opatrovateľky - Rakúsko</li>
+											<li>Plastika nosa</li>
+											<li>Ľudoví liečitelia</li>
+											<li>Zarastanie nechtov na nohe</li>
+											<li>Ako prestať fajčiť a piť - zbaviť sa absťákov</li>
+											<li>Gamblerstvo</li>
+											<li>Mam problem so srdcom kvoli drogam</li>
+										</ul>
+									</div>
+									<div role="tabpanel" class="tab-pane fade" id="clanky">
+										<div class="tab-pane-title">Najčítanejšie za 30 dní</div>
+										<ul>
+											<li>Čistou domácnosťou k psychickému zdraviu</li>
+											<li>Ako podporiť imunitu v zime</li>
+											<li>Vianočná súťaž o pobyt v Zlatých kúpeľoch</li>
+											<li>Lekárske služby prvej pomoci a pohotovostné lekárne</li>
+											<li>Klamú nás výrobcovia čistiacich prípravkov?</li>
+											<li>Namixujte si zdravie! Je tu Zelené smoothie</li>
+										</ul>
+									</div>
+								</div>
+							</div>
 						</div><!--/.sidebar-right-->
 					</div><!--/.col-sm-4 -->
 				</div><!--/.row -->
@@ -172,15 +439,30 @@
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="js/jstree.min.js"></script>
-		<script src="../../dist/js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 		<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
 
 		<script>
 			$( document ).ready(function() {
+
+				$.jstree.defaults.core.themes.icons = false;
 				$(function () {
-					$('.jstree').jstree({
+					$('.jstree')
+					.on('ready.jstree', function (e, data) {
+    					var max 	= 2
+    					var list	= $(this).children('ul');
+
+    					if ($(this).find("li").length > max) {
+    						$(this).find('li:gt('+max+')').hide();
+    						$('<a href="javascript:void(0)" class="show-more">Viac</a>').click( function(){
+    							$(this).prev('ul').find(':hidden').show();
+    							$(this).remove();
+    						}).insertAfter(list);
+    					}
+					  })
+					.jstree({
 	  					"plugins" : [ "wholerow", "checkbox" ]
 					});
 				});
@@ -188,6 +470,9 @@
 				$('section.filter h2').click(function() {
 					$(this).next('.filter-panel').slideToggle();
 				});
+
+
+				$('.panel-tab a:first').tab('show') // Select first tab
 			});
 		</script>
 
