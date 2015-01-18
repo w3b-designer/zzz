@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/development.css" rel="stylesheet">
+    <link href="css/index-search.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -23,8 +24,8 @@
     <![endif]-->
   </head>
 
-  <body>
-
+  <body id="index-search">
+<!--
     <nav class="navbar">
       <div class="container95">
         <div class="navbar-header">
@@ -34,7 +35,7 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
          	</button>
-          	<a class="navbar-brand" href="#"><img src="images/logo_zzz.png" class="logo" alt="Zoznam zdravotníckych zariadení"/></a>
+          	
 
         	
         </div>
@@ -59,6 +60,7 @@
 			    		</button>
 			      	</span>
 			    </div><!-- /input-group -->
+<!--			
 			</form>	
           	<form class="navbar-form navbar-right">
 				<button type="submit" class="btn btn-success btn-sm">Registrovať zariadenie</button>
@@ -66,57 +68,127 @@
 	        </form>
 
         </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
+<!--      </div>
+    </nav> -->
 
+    <div class="supermenu">
+	    <div class="container">
+	    	<ul class="inline">
+		        	<li class="active">
+		        		<a href="#">Lekári (ambulanice)</a>
+		        	</li>
+		        	<li>
+		        		<a href="#">Pohotovosť</a>
+		        	</li>
+		        	<li>
+		        		<a href="#">Lekárne</a>
+		        	</li>
+		        	<li>
+		        		<a href="#">Nemocnice</a>
+		        	</li>
+		        	<li>
+		        		<a href="#">Polikliniky</a>
+		        	</li>
+		        	<li>
+		        		<a href="#">Ďalšie zariadenia  <span class="caret"></span></a>
+		        	</li>
+		        	<!--
+		        	<li>
+		        		<a href="#">Ošetrovanie (ADOS)</a>
+		        	</li>
+		        	<li>
+		        		<a href="#">Očné optiky</a>
+		        	</li>
+		        	<li>
+		        		<a href="#">Pôrodnice</a>
+		        	</li>
+		        	<li>
+		        		<a href="#">Poisťovne</a>
+		        	</li>
+		        	<li>
+		        		<a href="#">Firmy</a>
+				    </li>
+		        	<li>
+		        		<a href="#">Vetrinári</a>
+		        	</li>
+		        	-->
+		        </ul>
+		        <ul class="inline pull-right">
+		        	<li class="">
+		        		<b><a href="#" class="cta"><span aria-hidden="true" class="glyphicon glyphicon-plus"></span>Registrovať zariadenie</a></b>
+		        	</li>
+		        	<li class="">
+		        		<a href="#"><span aria-hidden="true" class="glyphicon glyphicon-user"></span>Prihlásiť</a>
+		        	</li>
+		        </ul>
+		</div>
+    </div>
 
-			<div class="subheader-container">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12">
+    <div class="main-search">
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-sm-2">
+	    			<a class="" href="#">
+	    				<img src="images/logo_zzz.png" class="logo" alt="Zoznam zdravotníckych zariadení"/>
+	    			</a>
+	    		</div>	
 
-							<h1 class="no-margin-on-top">Nájdite si zdravotnícke zariadenie</h1>
-							<p class="claim">V zozname môžete nájť <b>6 576 zariadení</b></p>
+	    		<div class="col-sm-6">
+
+					<form role="form margin-on-top margin-on-bottom">
+					  	<div class="form-group">
 							
-							<div class="hp-search">
-								<div class="row">
-									<form role="form margin-on-top margin-on-bottom">
-									  	<div class="form-group">
-											<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
 
-											    <div class="input-group">
-											      <input type="text" class="form-control input-lg" placeholder="Zadajte mesto, meno lekára alebo lekáreň">
+							    <div class="input-group">
+							      <input type="text" class="form-control input-lg" placeholder="Zadajte mesto, meno lekára alebo lekáreň">
 
-											      <span class="input-group-btn">
-											         <button class="btn  btn-primary btn-lg" type="button"><span class="glyphicon glyphicon-search margin-on-right"></span>Vyhľadať</button>
-											      </span>
-											    </div><!-- /input-group -->
+							      <span class="input-group-btn">
+							         <button class="btn  btn-primary btn-lg" type="button"><span class="glyphicon glyphicon-search"></span>Vyhľadať</button>
+							      </span>
+							    </div><!-- /input-group -->
+						</div>
+					</form>	    			
+	    		</div>
+	    	</div>
+	    </div>
+	</div>
 
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
+	<div class="location">
+		<div class="container">
+	    	<div class="row">
+	    		<div class="col-sm-12">
+    			
+					<ul class="nav nav-tabs">
+					  	<li role="" class="active">
+					  		<a href="#">Bratislava <span class="badge">576</span></a>
+					  		</li>
+					  	<li role="">
+					  		<a href="#">Košice <span class="badge">442</span></a>
+					  	</li>
+					  	<li role="">
+					  		<a href="#">Nitra <span class="badge">56</span></a>
+					  	</li>
+					  	<li>
+					  		<a href="" class="">Ďalšie lokality »</a>
+					  	</li>
+					</ul>				
+				</div>
+	    	</div>
+		</div>		    	
+   	</div>
 
-						</div> <!-- col-sm-8 -->
-					</div> <!-- row -->
-				</div> <!-- container -->
-			</div>
+	
+
 			
 			<div class="content">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-8">
-						<h2 class="">Lekári/ambulancie podľa špecializácie<span class="badge">4721</span></h2>
+					
 							<div class="">
-								<ul class="nav nav-tabs">
-								  	<li role="" class="active"><a href="#">Bratislava <span class="badge">576</span></a></li>
-								  	<li role=""><a href="#">Košice <span class="badge">442</span></a></li>
-								  	<li role=""><a href="#">Nitra <span class="badge">56</span></a></li>
-								  	<li><a href="" class="">ďalšie lokality »</a></li>
-								</ul>
-
-								<div class="category padding-on-top box">
+								
+								<div class="category padding-on-top">
+								<h2 class="">Lekári/ambulancie podľa špecializácie:</h2>
 									<div class="row">
 										<div class="col-sm-3">
 											<ul class="reset">
@@ -195,69 +267,16 @@
 											</ul>
 										</div>
 									</div>
-									<button class="btn btn-primary btn-md large-margin-on-top" type="button">
+									<button class="btn btn-primary btn-md margin-on-top" type="button">
 			    						Zobraziť všetky špecializácie
 			    					</button>
 								</div> <!-- category -->
 							</div>
 			
-
-
-<h2 class="no-margin-on-top margin-on-bottom">Zdravotnícke zariadenie <span class="badge">721</span></h2>	
-							<div class="box">
-								<div class="row">
-									<div class="col-sm-12">
-										<div id="by-spec" style="cursor: default;">
-						                    
-
-									<div class="row">
-										<div class="col-sm-3">
-											<ul class="reset">
-												<li><a href="">Ambulancie  <span class="badge">122</span></a></li>
-												<li><a href="">Pohotovosť  <span class="badge">91</span></a></li>
-												<li><a href="">Lekárne  <span class="badge">87</span></a></li>
-											</ul>
-										</div>
-										<div class="col-sm-3">
-											<ul class="reset">
-												<li><a href="">Nemocnice  <span class="badge">67</span></a></li>
-												<li><a href="">Ošetrovanie  <span class="badge">65</span></a></li>
-												<li><a href="">Polikliniky  <span class="badge">41</span></a></li>
-											</ul>
-										</div>
-										<div class="col-sm-3">
-											<ul class="reset">
-												<li><a href="">Kúpele  <span class="badge">21</span></a></li>
-												<li><a href="">ADOS  <span class="badge">17</span></a></li>
-												<li><a href="">Inštitúcie  <span class="badge">12</span></a></li>
-											</ul>
-										</div>
-										<div class="col-sm-3">
-											<ul class="reset">
-												<li><a href="">Očné optiky <span class="badge">8</span></a></li>
-												<li><a href="">Pôrodnice  <span class="badge">7</span></a></li>
-												<li><a href="">Veterinári  <span class="badge">47</span></a></li>
-											</ul>
-										</div>
-									</div>			   							
-								</div>
-
-	   							</div>
-
-							</div> <!-- BOX -->
 						</div>
 					</div>
 
-						<div class="col-sm-4">
-							<div class="box">
-								<div class="sidebar-right">
-									<div class="sidebar-banner">
-										<img alt="" src="http://lorempixel.com/360/300/people">
-									</div>
-								</div>
 
-							</div> <!-- BOX -->
-						</div> <!-- col-sm-4 -->
 
 					</div>
 				</div>
@@ -265,12 +284,52 @@
 
 
 
-    <div class="container">
+				<div class="content-gray">
+					<div class="container">
+						<h2 class="no-margin-on-top margin-on-bottom">Zdravotnícke zariadenie <span class="badge">721</span></h2>	
+							
+						<div class="row">
+							<div class="col-sm-8">
+								<div id="by-spec" style="cursor: default;">
+				                    
 
-<h1>
-Skoro spať, zavčasu vstať, toť cesta k zdraviu, múdrosti a šťastiu.
-</h1>
-</div>
+							<div class="row">
+								<div class="col-sm-3">
+									<ul class="reset">
+										<li><a href="">Ambulancie  <span class="badge">122</span></a></li>
+										<li><a href="">Pohotovosť  <span class="badge">91</span></a></li>
+										<li><a href="">Lekárne  <span class="badge">87</span></a></li>
+									</ul>
+								</div>
+								<div class="col-sm-3">
+									<ul class="reset">
+										<li><a href="">Nemocnice  <span class="badge">67</span></a></li>
+										<li><a href="">Ošetrovanie  <span class="badge">65</span></a></li>
+										<li><a href="">Polikliniky  <span class="badge">41</span></a></li>
+									</ul>
+								</div>
+								<div class="col-sm-3">
+									<ul class="reset">
+										<li><a href="">Kúpele  <span class="badge">21</span></a></li>
+										<li><a href="">ADOS  <span class="badge">17</span></a></li>
+										<li><a href="">Inštitúcie  <span class="badge">12</span></a></li>
+									</ul>
+								</div>
+								<div class="col-sm-3">
+									<ul class="reset">
+										<li><a href="">Očné optiky <span class="badge">8</span></a></li>
+										<li><a href="">Pôrodnice  <span class="badge">7</span></a></li>
+										<li><a href="">Veterinári  <span class="badge">47</span></a></li>
+									</ul>
+								</div>
+							</div>			   							
+						</div>
+
+	   				</div>
+				</div> <!-- BOX -->
+
+
+   
       <hr>
 
       <footer>

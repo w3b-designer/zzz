@@ -1,0 +1,83 @@
+
+/* -----------------------------------------
+   HOMEPAGE STYLES
+----------------------------------------- */
+.content {
+  padding-top:0;
+  background-color: #fff;
+}
+
+.content-gray {
+  background-color: #f4f4f2;
+  padding-top: 30px;
+}
+
+.main-search {
+  background-color: #f4f4f2;
+  min-height: 150px; 
+}
+  
+#index-search .logo {
+  width: 160px;
+  max-height: 120px !important;
+  float: right;
+}
+
+.supermenu {
+  color: #ffffff !important;
+  background-color: #dc4646;
+  height: 34px;
+  padding: 7px 0;
+}
+
+.supermenu a {
+  color: #ffffff !important;
+}
+
+.supermenu a.cta {
+  border: 1px solid #ffffff;
+  padding: 3px 10px !important; 
+}
+
+.supermenu ul.inline {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline;
+}
+
+.supermenu ul.inline li {
+  display: inline;
+}
+
+.supermenu ul.inline li a {
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+
+
+.main-search {
+  padding-top: 50px;
+}
+
+.location {
+  background-color: #f4f4f2;
+  padding-top: 30px;
+  padding: 0;
+}
+
+.location .nav-tabs > li.active > a {
+  color: #222 !important;
+  font-weight: bold;
+}
+.location .nav-tabs > li > a {
+  color: #555 !important;
+}
+
+.location h2 {
+  font-size: 14px;
+}
+
+.category h2 {
+  font-size: 14px;
+}
