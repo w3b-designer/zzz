@@ -28,7 +28,7 @@
 
 	<body class="page-list">
 		<nav class="navbar">
-			<div class="container">
+			<div class="container95">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 						<span class="sr-only">Toggle navigation</span>
@@ -38,10 +38,34 @@
 					</button>
 					<a class="navbar-brand" href="#"><img src="images/logo_zzz.png" class="logo" alt="Zoznam zdravotníckych zariadení"/></a>
 				</div>
+
 				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav large-margin-on-left">
+						<li class="active">
+							<a href="#">Lekári <span class="sr-only">(current)</span></a>
+						</li>
+						<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Zariadenia <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+							</ul>
+						</li>
+					</ul>
+
+					<form role="search" class="navbar-form navbar-left">
+						<div class="input-group">
+							<input type="text" class="form-control input-sm" placeholder="Zadajte mesto, meno lekára alebo ">
+							<span class="input-group-btn">
+								<button class="btn  btn-primary btn-sm" type="button">
+									<span class="glyphicon glyphicon-search"></span>
+								</button>
+							</span>
+						</div><!-- /input-group -->
+					</form>
 					<form class="navbar-form navbar-right">
-						<button type="submit" class="btn btn-success">Registrovať zariadenie</button>
-						<button type="submit" class="btn">Prihlásenie</button>
+						<button type="submit" class="btn btn-success btn-sm">Registrovať zariadenie</button>
+						<a type="submit" class="btn btn-sm">Prihlásenie</a>
 					</form>
 				</div><!--/.navbar-collapse -->
 			</div>
