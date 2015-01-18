@@ -19,17 +19,29 @@ body {
 a {
   color: #dc4646;
 }
+h1 {
+  font-size: 37px;
+}
 h2 {
-  font-size: 23px;
+  font-size: 27px;
 }
 h3 {
   font-size: 17px;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 5px 0 15px;
 }
 .box h3 {
   margin-top: 15px;
   display: inline-block;
 }
-ul li {
+ul {
+  padding-left: 20px;
+}
+ul.reset li {
   padding: 3px 0 0;
   line-height: 175%;
 }
@@ -44,12 +56,12 @@ ul li {
   border-color: #c63f3f;
 }
 .content {
-  padding-top: 30px;
+  padding-top: 15px;
 }
 .box {
   background-color: #ffffff;
   /* box-shadow: 0 0px 5px rgba(0, 0, 0, 0.15); */
-  border: 1px solid #e9e9e9;
+  border: 1px solid #e4e4e2;
   padding: 15px;
   margin-bottom: 30px;
 }
@@ -63,14 +75,14 @@ h2 .badge {
 }
 .badge {
   font-weight: normal;
-  color: #777;
-  background-color: #ddddda;
+  background-color: #d4d4d2;
 }
 /* -----------------------------------------
    HEADER STYLES
 ----------------------------------------- */
 .navbar {
   background-color: #ffffff;
+  border-bottom: 1px solid #e4e4e2;
   border-radius: 0px;
   margin-bottom: 0px;
 }
@@ -85,25 +97,20 @@ h2 .badge {
    HOMEPAGE STYLES
 ----------------------------------------- */
 .subheader-container {
-  background: url('../images/bg_search3.png') #f4f4f4 no-repeat bottom center;
+  background: url('../images/bg_search5.png') no-repeat bottom center;
   background-size: cover;
   padding: 30px 0;
 }
 .subheader-container h1 {
-  font-size: 34px;
   font-weight: normal;
   color: #111;
   text-align: center;
-  margin: 0;
 }
 .subheader-container .claim {
   font-size: 17px;
   color: #c63f3f;
   text-align: center;
   margin-top: 5px;
-}
-.subheader-container:after {
-  background-color: #ff0000;
 }
 .subheader-container-search {
   background-color: rgba(44, 62, 80, 0.95);
@@ -119,9 +126,42 @@ h2 .badge {
   background-color: #ffffff;
   padding: 15px;
 }
+/* -----------------------------------------
+   DETAIL STYLES
+----------------------------------------- */
+.page-detail h1 {
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 120%;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.page-detail h2 {
+  font-size: 21px;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+  margin: 5px 0 10px;
+}
+.page-detail .actions {
+  background-color: #e4e4e2;
+  padding: 30px 30px;
+  border-bottom: 1px solid #d4d4d2;
+  border-left: 1px solid #d4d4d2;
+  border-right: 1px solid #d4d4d2;
+}
+.page-detail .content-panel {
+  margin-bottom: 0;
+}
+.page-detail .company-logo {
+  float: right;
+  margin-left: 15px;
+  max-width: 160px;
+  max-height: 80px;
+}
 .breadcrumbs {
   padding: 0;
-  margin: 10px 0 0;
+  margin: 20px 0 0;
   overflow: hidden;
 }
 .breadcrumbs li {
