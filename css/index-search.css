@@ -13,10 +13,12 @@
 }
 
 .main-search {
-  background-color: #f4f4f2;
-  min-height: 150px; 
+  background: url('../images/bg_search11.jpg') no-repeat bottom center;
+  min-height: 300px; 
+  padding-top:100px;
 }
   
+
 #index-search .logo {
   width: 160px;
   max-height: 120px !important;
@@ -56,14 +58,11 @@
   }
 
 
-.main-search {
-  padding-top: 50px;
-}
-
 .location {
-  background-color: #f4f4f2;
+  background-color: transparent;
   padding-top: 30px;
   padding: 0;
+  margin-top:-42px;
 }
 
 .location .nav-tabs > li.active > a {
@@ -75,9 +74,8 @@
 }
 
 .location h2 {
-  font-size: 14px;
 }
 
 .category h2 {
-  font-size: 14px;
+
 }
